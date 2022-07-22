@@ -1,10 +1,10 @@
 package com.huawei.charging;
 
+import com.alibaba.cola.exception.BizException;
 import com.huawei.charging.application.ChargeServiceI;
 import com.huawei.charging.application.dto.ChargeRequest;
 import com.huawei.charging.application.dto.EndSessionRequest;
 import com.huawei.charging.application.dto.InitSessionRequest;
-import com.huawei.charging.domain.BizException;
 import com.huawei.charging.domain.account.Account;
 import com.huawei.charging.domain.charge.Money;
 import com.huawei.charging.domain.gateway.AccountGateway;

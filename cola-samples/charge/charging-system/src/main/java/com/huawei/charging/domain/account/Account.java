@@ -1,6 +1,6 @@
 package com.huawei.charging.domain.account;
 
-import com.huawei.charging.domain.BizException;
+import com.alibaba.cola.exception.BizException;
 import com.huawei.charging.domain.DomainFactory;
 import com.huawei.charging.domain.Entity;
 import com.huawei.charging.domain.charge.*;
@@ -63,7 +63,7 @@ public class Account {
      */
     public void checkRemaining() {
         if (remaining.isLessThan(Money.of(0))) {
-            throw BizException.of(this.phoneNo + " has insufficient amount");
+            throw new BizException(this.phoneNo + " has insufficient amount");
         }
     }
 

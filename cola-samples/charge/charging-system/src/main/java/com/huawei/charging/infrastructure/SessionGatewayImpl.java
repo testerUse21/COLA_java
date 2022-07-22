@@ -1,6 +1,5 @@
 package com.huawei.charging.infrastructure;
 
-import com.huawei.charging.domain.BizException;
 import com.huawei.charging.domain.charge.Session;
 import com.huawei.charging.domain.gateway.SessionGateway;
 import org.springframework.stereotype.Component;
