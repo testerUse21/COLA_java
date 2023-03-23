@@ -13,6 +13,16 @@ public class TestApplication {
     public static void main(String[] args) {
         //这里填的是TestApplication
         ApplicationContext context = SpringApplication.run(Application.class, args);
+        System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
+          System.out.println("it is incremental scan");
     }
 
 }
