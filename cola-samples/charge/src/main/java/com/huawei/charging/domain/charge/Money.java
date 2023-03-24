@@ -20,6 +20,11 @@ public class Money {
         this.amount = amount;
     }
 
+    
+    
+    
+    
+    
     public static Money of(int amount){
         return new Money(amount);
     }

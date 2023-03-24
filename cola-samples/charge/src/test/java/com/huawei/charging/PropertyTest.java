@@ -15,6 +15,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @ActiveProfiles("test")
 public class PropertyTest {
 
+    
+    
+    
+    
+    
+    
     @Value("${spring.jpa.show-sql}")
     private String showSql;
 
