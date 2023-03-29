@@ -47,6 +47,10 @@ public class MavenWrapperDownloader {
 
     public static void main(String args[]) {
         System.out.println("- Downloader started");
+        System.out.println("New isuue");
+        System.out.println("New isuue");
+        System.out.println("New isuue");
+        System.out.println("New isuue");
         File baseDirectory = new File(args[0]);
         System.out.println("- Using base directory: " + baseDirectory.getAbsolutePath());
 
@@ -86,7 +90,7 @@ public class MavenWrapperDownloader {
         try {
             downloadFileFromURL(url, outputFile);
             System.out.println("Done");
-            System.exit(0);
+           // System.exit(0);
         } catch (Throwable e) {
             System.out.println("- Error downloading");
             e.printStackTrace();
